@@ -23,7 +23,7 @@ $rootfolder = $datafolder + "\..\..\..\.."
 # advanced options
 $build = "True"
 $deploydatabase = "False"
-$deploysearch = "True"
+$deploysearch = "False"
 $deployfrontend = "True" 
 $deployfrontend_website = $false # deploys frontend as a website instead of cloud service, webjobs are deployed as well so no need to deploy scheduler service
 $deployscheduler = "True"
