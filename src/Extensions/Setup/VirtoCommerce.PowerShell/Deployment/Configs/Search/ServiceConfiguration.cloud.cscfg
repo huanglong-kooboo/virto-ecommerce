@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="ESRole" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="ESWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="CloudDriveSize" value="1096" />
+      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=http;AccountName=kadobondev;AccountKey=hiyZzgzh/E+ca+91pDihihis88DEypUCt0BeZyGK7YNRte4lOcIXCfypO7ti3bGGbaqSHnYZOhCwKGahKStHrg==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=http;AccountName=kadobondev;AccountKey=hiyZzgzh/E+ca+91pDihihis88DEypUCt0BeZyGK7YNRte4lOcIXCfypO7ti3bGGbaqSHnYZOhCwKGahKStHrg==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
