@@ -13,7 +13,7 @@ $slot = 'Production'
 
 
 # parameters below are automaticaly generated
-$frontend_servicename = $service_prefix + '-www'
+$frontend_servicename = $service_prefix + '-web'
 $search_servicename = $service_prefix + '-search'
 $scheduler_servicename = $service_prefix + '-scheduler'
 $storageaccount = "kadobondev"

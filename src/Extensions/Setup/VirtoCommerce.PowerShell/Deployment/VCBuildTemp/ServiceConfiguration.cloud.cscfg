@@ -13,7 +13,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="VirtoCommerce" value="Server=tcp:nitpvpk141.database.windows.net,1433;Database=kadobon.ecommerce.development;User ID=kadobon-sa@nitpvpk141;Password=kdb2015#@!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
-      <Setting name="SearchConnectionString" value="server=http://kadobon-dev-search.cloudapp.net:9200;scope=default" />
+      <Setting name="SearchConnectionString" value="server=http://didix-kadobon.cloudapp.net:9200;scope=default" />
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="DataConnectionString" value="" />
       <Setting name="IPAddressRules.Enabled" value="false" />
